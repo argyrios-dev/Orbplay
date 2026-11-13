@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1 /* OrbplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7 /* OrbplayApp.swift */; };
+		B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8 /* ContentView.swift */; };
+		B3 /* SpatialAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9 /* SpatialAudio.swift */; };
+		B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10 /* Orbplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orbplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20 /* Orbplay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orbplay.entitlements; sourceTree = "<group>"; };
+		A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7 /* OrbplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbplayApp.swift; sourceTree = "<group>"; };
+		A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9 /* SpatialAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3 = {
+			isa = PBXGroup;
+			children = (
+				A6 /* Orbplay */,
+				A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10 /* Orbplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6 /* Orbplay */ = {
+			isa = PBXGroup;
+			children = (
+				A7 /* OrbplayApp.swift */,
+				A8 /* ContentView.swift */,
+				A9 /* SpatialAudio.swift */,
+				A19 /* Info.plist */,
+				A20 /* Orbplay.entitlements */,
+				A21 /* Assets.xcassets */,
+			);
+			path = Orbplay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5 /* Orbplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11 /* Build configuration list for PBXNativeTarget "Orbplay" */;
+			buildPhases = (
+				A12 /* Sources */,
+				A13 /* Frameworks */,
+				A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orbplay;
+			productName = Orbplay;
+			productReference = A10 /* Orbplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+			};
+			buildConfigurationList = A2 /* Build configuration list for PBXProject "Orbplay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3;
+			productRefGroup = A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5 /* Orbplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1 /* OrbplayApp.swift in Sources */,
+				B2 /* ContentView.swift in Sources */,
+				B3 /* SpatialAudio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Orbplay/Orbplay.entitlements;
+				CURRENT_PROJECT_VERSION = 1.2.5.1;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Orbplay/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbplay.app;
+				PRODUCT_NAME = Orbplay;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Orbplay/Orbplay.entitlements;
+				CURRENT_PROJECT_VERSION = 1.2.5.1;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Orbplay/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				LSUIElement = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbplay.app;
+				PRODUCT_NAME = Orbplay;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11 /* Build configuration list for PBXNativeTarget "Orbplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17 /* Debug */,
+				A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2 /* Build configuration list for PBXProject "Orbplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15 /* Debug */,
+				A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1 /* Project object */;
+}
